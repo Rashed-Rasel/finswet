@@ -1,0 +1,624 @@
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --Poppins: "Poppins", sans-serif;
+  --textcolor: #fff;
+  --background: #1c1e53;
+  --iconcolor:#2405F2;
+  --secondtextcolor: #282938;
+  
+}
+/* common css end */
+
+/* nevbar css start */
+
+#nevbar-part {
+  background: #1c1e53;
+}
+#nevbar-part a {
+  color: var(--White, #fff);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 25px;
+  transition: all linear 0.3s;
+}
+#nevbar-part a:hover {
+  color: #ffff00;
+}
+#nevbar-part .btn {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.37);
+  padding: 16px 40px;
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.3s;
+}
+#nevbar-part .btn:hover {
+  color: #ffff00;
+}
+
+/* nevbar css end */
+
+/* banner css start */
+#nevbar-part .row {
+  padding: 192px 0;
+}
+#nevbar-part .row h1 {
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+#nevbar-part .row p {
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#nevbar-part .row .banner-last .our-wrok button {
+  border-radius: 41px;
+  background: #fcd980;
+  padding: 11px 56px;
+  color: #1b1c2b;
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+#nevbar-part .row .banner-last .paching a {
+  color:var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;/
+}
+
+/* banner css end */
+
+/* wrok css start */
+#wrok{
+  background-color: #F4F6FC;
+}
+#wrok .wrok-left-side h1{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+
+}
+#wrok .wrok-left-side p{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#wrok .wrok-left-side a{
+  color: var(--iconcolor);
+  font-family:var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#wrok .wrok-left-side i{
+  color:var(--iconcolor);
+}
+
+#wrok .strategy h2{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+#wrok .strategy p{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+
+
+
+/* wrok css end */
+
+/* project css start */
+#project h1{
+  color: var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+}
+#project a{
+  color: var(--secondtextcolor);
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 500;
+
+}
+#project .bg-img .overly .linear{
+ background-image:  linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);;
+  width: 50%;
+  height: 100%;
+}
+#project .bg-img .overly .left-text{
+  padding-left: 48px;
+}
+#project .bg-img .overly .left-text h2{
+  color: var(--textcolor);
+  font-family:var(--Poppins);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+#project .bg-img .overly .left-text p{
+  color:var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+}
+#project .bg-img .overly .left-text .view-project a{
+  color: #FCD980;
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin-bottom: 77px;
+}
+#project .project-right .overly .right-linear{
+  background-image:  linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);;
+  width: 100%;
+  height: 100%;
+}
+#project .project-right .overly .right-text h2{
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-left: 56px;
+  margin-top: 129px;
+  margin-bottom: 10px;
+}
+#project .project-right .overly .right-text a{
+  color: #FCD980;
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin-left: 56px;
+}
+
+
+/* project css end */
+
+/* design css start */
+#design{
+  background-color: #F4F6FC;
+  padding: 100px;
+ 
+}
+
+
+#design .titel p{
+  color: #282938;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+#design .titel h1{
+  color: #282938;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 47px;
+}
+#design .clint{
+  background-color: #fff;
+  width: 405px;
+  height: 316px;
+  padding-top: 48px;
+  transition: all linear 0.3s;
+
+}
+#design .clint:hover{
+  background-color: #878add2f;
+  box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.75);
+}
+
+#design .clint h2{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#design .clint p{
+  color: #282938;
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+
+/* design css end */
+
+/* about css start */
+#about{
+  background-color: #F4F6FC;
+  border: 1px solid #000;
+
+}
+#about .about-left-text h1{
+  color:var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  
+}
+#about .about-left-text p{
+  color: var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+
+}
+#about .right-text-up h1{
+  color: var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 40px;
+  
+}
+#about .right-text-down h4{
+  color:var(--secondtextcolor);
+font-family:var(--Poppins);
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+}
+#about .right-text-down p{
+  color:var(--secondtextcolor);
+font-family:var(--Poppins);
+font-size: 12px;
+font-weight: 500;
+line-height: 28px;
+}
+
+/* about css end */
+
+/* questions css start */
+#question .question-left-text h1{
+  color:var(--secondtextcolor);
+font-family:var(--Poppins);
+font-size: 38px;
+font-weight: 600;
+line-height: 56px;
+}
+#question .question-left-text a{
+  color: #2405F2;
+  font-family:var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.87;
+}
+#question .question-right-text .manu{
+  column-gap: 59px;
+}
+#question .question-right-text .manu .number h3{
+  color: #2405F2;
+text-align: center;
+font-family: var(--Poppins);
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+
+}
+#question .question-right-text .manu .text h2{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#question .question-right-text .manu .text p{
+  color: #282938;
+font-family: var(--Poppins);
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+opacity: 0.87;
+}
+#question .question-right-text .icon a{
+  color: #282938;
+  opacity: 0.7;
+  
+}
+#question .line{
+  width: 843px;
+  height: 2px;
+  background: #ECECF1;
+}
+
+/* questions css end */
+
+/* contact css start */
+
+#contact .left-img .contact-left-text{
+  padding: 96px;
+}
+#contact .left-img picture img{
+  height: 691px;
+}
+#contact .left-img .overly .linear{
+  background-image: linear-gradient( #1C1E53 -10.96%, rgba(28, 30, 83, 0.50));
+  width: 100%;
+  height: 100%;
+}
+#contact .left-img .overly .contact-left-text h1{
+  color:var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 24px;
+}
+#contact .left-img .overly .contact-left-text p{
+  color: var(--textcolor);
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#contact .contact-right-bg{
+  background-color: #1C1E53;
+  height: 691px;
+  
+}
+#contact .contact-right-bg .overly .right-items{
+  padding: 96px 96px 0px 96px;
+}
+
+#contact .contact-right-bg .overly .right-items h2{
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+#contact .contact-right-bg .overly .right-items p{
+  color: #F4F6FC;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+#contact .contact-right-bg .overly .right-items .form-floating input{
+  background-color: #1C1E53;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+}
+#contact .contact-right-bg .overly .right-items .btn{  
+width: 432px;
+height: 64px;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+border-radius: 41px;
+background: #FCD980;
+margin-bottom: 28px;
+
+}
+#contact .contact-right-bg .overly .right-items .btn a{
+  color: #1B1C2B;
+  font-family:'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+ 
+}
+
+#contact .contact-right-bg .overly .right-items .touch a{
+  color:var(--textcolor);
+font-family: var(--Poppins);
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 48px;
+}
+
+
+/* contact css end */
+
+/* blog css start */
+#blog h1{
+  color:var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 64px;
+}
+#blog .blog-items .date{
+  color:var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#blog .blog-items h3{
+  color:var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#blog .blog-items p{
+  color: var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#blog .blog-items a{
+  color: #282938;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  align-items: center;
+}
+
+/* blog css end */
+
+/* footer css start */
+#footer{
+  background-color: #1C1E53;
+}
+#footer .footer-left{
+  margin-top: 100px;
+}
+#footer .footer-left p{
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-top: 22px;
+  margin-bottom: 86px;
+  
+}
+#footer .footer-left .footer-left-last{
+  width: 517px;
+  height: 95px;
+  background: #FCD980;
+
+}
+#footer .footer-left .footer-left-last .text{
+  padding-top: 24px;
+  padding-left: 37px;
+}
+#footer .footer-left .footer-left-last .text h3{
+  color: var(--secondtextcolor);
+  font-family:var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+#footer .footer-left .footer-left-last .text a{
+  color:var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+  
+  
+}
+#footer .footer-right{
+  margin-top: 100px;
+}
+#footer .footer-right h1{
+  color: var(--textcolor);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 14px;
+}
+#footer .footer-right p{
+  color: #F4F6FC;
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 28px;
+}
+#footer .footer-right .icon a{
+padding-right: 20px;
+ 
+
+}
+
+/* footer nevbar css start */
+#footer-nevbar p{
+  color: var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#footer-nevbar ul li{
+  padding-left: 10px;
+}
+#footer-nevbar ul li a{
+  color:var(--secondtextcolor);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear .03s;
+  }
+  #footer-nevbar ul li a:hover{
+    background-color: #80abfc;
+    color: #000000;
+    
+  }
+
+/* footer css end */
