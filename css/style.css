@@ -176,13 +176,17 @@ font-size: 16px;
 font-weight: 500;
 
 }
+
 #project .bg-img .overly .linear{
  background-image:  linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);;
   width: 50%;
   height: 100%;
+
 }
+
 #project .bg-img .overly .left-text{
   padding-left: 48px;
+  padding-top: 312px;
 }
 #project .bg-img .overly .left-text h2{
   color: var(--textcolor);
@@ -357,43 +361,35 @@ line-height: 56px;
   font-weight: 500;
   line-height: 32px;
   opacity: 0.87;
+  transition: all linear 0.3s;
 }
-#question .question-right-text .manu{
-  column-gap: 59px;
+#question .question-left-text a:hover{
+  color: #ea00ff;
 }
-#question .question-right-text .manu .number h3{
-  color: #2405F2;
-text-align: center;
-font-family: var(--Poppins);
-font-size: 24px;
-font-weight: 500;
-line-height: 36px;
-
+#question .question-right-text span{
+  color: var(--iconcolor, #2405F2);
+  text-align: center;
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-right: 59px;
 }
-#question .question-right-text .manu .text h2{
-  color: #282938;
+#question .question-right-text{
+  color: var(--secondtextcolor, #282938);
   font-family: var(--Poppins);
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
 }
-#question .question-right-text .manu .text p{
-  color: #282938;
-font-family: var(--Poppins);
-font-size: 18px;
-font-weight: 500;
-line-height: 32px;
-opacity: 0.87;
-}
-#question .question-right-text .icon a{
-  color: #282938;
-  opacity: 0.7;
+#question p{
+  color: var(--secondtextcolor, #0d103b);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 80px;
   
-}
-#question .line{
-  width: 843px;
-  height: 2px;
-  background: #ECECF1;
 }
 
 /* questions css end */
@@ -429,6 +425,7 @@ opacity: 0.87;
 #contact .contact-right-bg{
   background-color: #1C1E53;
   height: 691px;
+  margin-left: -5px;
   
 }
 #contact .contact-right-bg .overly .right-items{
@@ -451,10 +448,27 @@ opacity: 0.87;
   line-height: 28px;
   margin-bottom: 40px;
 }
-#contact .contact-right-bg .overly .right-items .form-floating input{
+#contact .contact-right-bg .overly .right-items input{
   background-color: #1C1E53;
+  color: #fff;
   border-radius: 8px;
   border: 1.5px solid rgba(255, 255, 255, 0.05);
+  
+}
+
+#contact .contact-right-bg .overly .right-items .form-floating .lavel-text{
+  color: #F4F6FC;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#contact .contact-right-bg .overly .right-items input .placeholder{
+  color: #F4F6FC;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
 #contact .contact-right-bg .overly .right-items .btn{  
 width: 432px;
@@ -472,7 +486,11 @@ margin-bottom: 28px;
   font-family:'Manrope', sans-serif;
   font-size: 18px;
   font-weight: 600;
+  transition: all linear 0.3s;
  
+}
+#contact .contact-right-bg .overly .right-items .btn a:hover{
+  color: var(--iconcolor);
 }
 
 #contact .contact-right-bg .overly .right-items .touch a{
