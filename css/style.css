@@ -36,6 +36,7 @@ li {
   --background: #1c1e53;
   --iconcolor:#2405F2;
   --secondtextcolor: #282938;
+  --btncolor:#fcd980;
   
 }
 /* common css end */
@@ -43,10 +44,10 @@ li {
 /* nevbar css start */
 
 #nevbar-part {
-  background: #1c1e53;
+  background: var(--background);
 }
 #nevbar-part a {
-  color: var(--White, #fff);
+  color: var(--textcolor, #fff);
   font-family: var(--Poppins);
   font-size: 16px;
   font-weight: 500;
@@ -54,7 +55,7 @@ li {
   transition: all linear 0.3s;
 }
 #nevbar-part a:hover {
-  color: #ffff00;
+  color: var(--btncolor);
 }
 #nevbar-part .btn {
   border-radius: 41px;
@@ -68,7 +69,8 @@ li {
   transition: all linear 0.3s;
 }
 #nevbar-part .btn:hover {
-  color: #ffff00;
+  color: var(--background);
+  background-color: var(--btncolor);
 }
 
 /* nevbar css end */
@@ -94,13 +96,17 @@ li {
 
 #nevbar-part .row .banner-last .our-wrok button {
   border-radius: 41px;
-  background: #fcd980;
+  background: var(--btncolor);
   padding: 11px 56px;
   color: #1b1c2b;
   font-family: var(--Poppins);
   font-size: 18px;
   font-weight: 600;
   line-height: 32px;
+  transition: all linear 0.3s;
+}
+#nevbar-part .row .banner-last .our-wrok button:hover{
+  background-color: var(--textcolor);
 }
 #nevbar-part .row .banner-last .paching a {
   color:var(--textcolor);
@@ -108,6 +114,9 @@ li {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;/
+}
+#nevbar-part .row .banner-last .paching a:hover{
+  color: var(--btncolor);
 }
 
 /* banner css end */
@@ -137,9 +146,6 @@ li {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
-}
-#wrok .wrok-left-side i{
-  color:var(--iconcolor);
 }
 
 #wrok .strategy h2{
@@ -176,17 +182,26 @@ font-size: 16px;
 font-weight: 500;
 
 }
+#project .bg-img{
+  overflow: hidden;
+}
 
-#project .bg-img .overly .linear{
- background-image:  linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);;
+#project .bg-img .overly {
+  background-image: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
   width: 50%;
   height: 100%;
-
+  top: 0;
+  left: -50%;
+  transition: all linear .3s;
+  
+}
+#project .bg-img:hover .overly{
+  left: 0;
 }
 
 #project .bg-img .overly .left-text{
+  bottom: 0;
   padding-left: 48px;
-  padding-top: 312px;
 }
 #project .bg-img .overly .left-text h2{
   color: var(--textcolor);
@@ -195,6 +210,7 @@ font-weight: 500;
   font-weight: 600;
   line-height: 36px;
   margin-bottom: 16px;
+ 
 }
 #project .bg-img .overly .left-text p{
   color:var(--textcolor);
@@ -204,6 +220,7 @@ font-weight: 500;
   line-height: 28px;
   margin-bottom: 40px;
   opacity: 0.8;
+ 
 }
 #project .bg-img .overly .left-text .view-project a{
   color: #FCD980;
@@ -212,11 +229,21 @@ font-size: 16px;
 font-weight: 500;
 line-height: 28px;
 margin-bottom: 77px;
+
 }
-#project .project-right .overly .right-linear{
-  background-image:  linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);;
+#project .project-right{
+  overflow: hidden;
+}
+#project .project-right .overly {
+  background-image: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
   width: 100%;
   height: 100%;
+  top: 0;
+  right: -100%;
+  transition: all linear .3s;
+}
+#project .project-right:hover .overly{
+  right: 0;
 }
 #project .project-right .overly .right-text h2{
   color: var(--textcolor);
@@ -256,7 +283,7 @@ margin-left: 56px;
   line-height: 28px;
   margin-bottom: 12px;
 }
-#design .titel h1{
+#design .titel h2{
   color: #282938;
   font-family: Poppins;
   font-size: 48px;
@@ -269,6 +296,7 @@ margin-left: 56px;
   width: 405px;
   height: 316px;
   padding-top: 48px;
+  padding-left: 48px;
   transition: all linear 0.3s;
 
 }
@@ -429,6 +457,7 @@ line-height: 56px;
   
 }
 #contact .contact-right-bg .overly .right-items{
+ 
   padding: 96px 96px 0px 96px;
 }
 
@@ -449,6 +478,7 @@ line-height: 56px;
   margin-bottom: 40px;
 }
 #contact .contact-right-bg .overly .right-items input{
+  
   background-color: #1C1E53;
   color: #fff;
   border-radius: 8px;
@@ -471,14 +501,13 @@ line-height: 56px;
   line-height: 28px;
 }
 #contact .contact-right-bg .overly .right-items .btn{  
-width: 432px;
-height: 64px;
-padding: 15px 51px;
-justify-content: center;
-align-items: center;
-border-radius: 41px;
-background: #FCD980;
-margin-bottom: 28px;
+ 
+  padding: 15px 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 41px;
+  background: #FCD980;
+  margin-bottom: 28px;
 
 }
 #contact .contact-right-bg .overly .right-items .btn a{
