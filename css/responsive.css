@@ -1,0 +1,69 @@
+/* ================================================ */
+/*=========== nevbar responsive  start============= */
+/* ================================================ */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  #nevbar-part li a {
+    background-color: var(--btncolor);
+    margin-bottom: 20px;
+    color: #000000;
+    border-radius: 20px;
+    transition: all linear 0, 3s;
+  }
+  #nevbar-part li a:hover {
+    color: #000000;
+    background-color: aliceblue;
+  }
+  #wrok {
+    padding: 25px 0;
+  }
+  #wrok .strategy {
+    padding: 25px 0;
+  }
+}
+
+/* ================================================ */
+/*=========== wrok responsive  css start============= */
+/* ================================================ */
+
+@media (max-width: 991.98px) {
+}
+
+/* ================================================ */
+/*=========== wrok responsive  css end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== nevbar responsive  css start============= */
+/* ================================================ */
+
+@media (max-width: 1199.98px) {
+  #contact .left-img .contact-left-text {
+    padding: 96px 0 0 26px;
+  }
+  #contact .left-img .overly .contact-left-text p {
+    font-size: 14px;
+  }
+  #contact .contact-right-bg .overly .right-items .btn {
+    padding: 15px 79px;
+  }
+}
+
+/* ================================================ */
+/*=========== client responsive  end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== Footer responsive  start============= */
+/* ================================================ */
+@media (max-width: 1199.98px) {
+  element.style {
+    padding-left: 57px;
+  }
+}
+
+/* ================================================ */
+/*=========== Footer responsive  end============= */
+/* ================================================ */
