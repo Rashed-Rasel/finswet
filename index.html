@@ -93,9 +93,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 mt-md-5 mt-lg-0">
+            <div class="col-lg-6 mt-md-5 mt-lg-0 ">
               <picture>
-                <img src="/images/banner.png" alt="banner.png" class="w-100" title="banner.png" />
+                <img  src="/images/banner.png" alt="banner.png" class="w-100" title="banner.png" />
               </picture>
             </div>
           </div>
@@ -107,7 +107,7 @@
     <!-- wrok part html start -->
     <section id="wrok">
       <div class="container p-0">
-        <div class="row" style="padding: 129px">
+        <div class="row">
           <div class="col-lg-5">
             <div class="wrok-left-side">
               <h1>How we work</h1>
@@ -115,7 +115,7 @@
                 Lorem ipsum dolor sit amet, consectetur <br />
                 adipiscing elit, sed do eiusmod tempor.
               </p>
-              <div class="d-flex align-items-center pt-lg-4">
+              <div class=" wrok_icon align-items-center pt-lg-4">
                 <a href="#">Get in touch with us
                   <i class="fa-solid fa-arrow-right-long ps-2 pt-1"></i>
                  </a>
@@ -205,10 +205,10 @@
     <section id="project">
       <div class="container p-0">
         <div class="row align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6 col-sm-6">
             <h1>View our projects</h1>
           </div>
-          <div class="col-lg-6 text-end">
+          <div class="col-lg-6 col-md-6 col-sm-6 text-end">
             <a href="#">View More</a>
             <i class="fa-solid fa-arrow-right-long ps-2 pt-1"></i>
           </div>
@@ -312,7 +312,7 @@
           </div>
         </div>
         <div class="row g-5">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="clint">
               <a href="#"
                 ><i
@@ -329,7 +329,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 ">
+          <div class="col-lg-4 col-md-6 ">
             <div class="clint ">
               <a href="#"
                 ><i
@@ -346,7 +346,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 ">
+          <div class="col-lg-4 col-md-6 ">
             <div class="clint ">
               <a href="#"
                 ><i
@@ -363,7 +363,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="clint ">
               <a href="#"
                 ><i
@@ -380,7 +380,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 ">
+          <div class="col-lg-4 col-md-6 ">
             <div class="clint ">
               <a href="#"
                 ><i
@@ -397,7 +397,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 ">
+          <div class="col-lg-4 col-md-6">
             <div class="clint ">
               <a href="#"
                 ><i
@@ -449,7 +449,7 @@
                 </div>
               </div>
               <div class="col-lg-12">
-                <div class="row">
+                <div class="row right-text-pic">
                   <div class="col-lg-1">
                     <picture>
                       <img
@@ -744,7 +744,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="blog-items">
               <picture>
                 <img
@@ -772,7 +772,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="blog-items">
               <picture>
                 <img
@@ -800,7 +800,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
             <div class="blog-items">
               <picture>
                 <img
@@ -890,11 +890,24 @@
     <section id="footer-nevbar">
       <nav class="navbar navbar-expand-lg p-3">
         <div class="container p-0">
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand" href="#">
             <p>Copyright 2022, Finsweet.com</p>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fs-2"></i></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About us</a>
@@ -912,6 +925,7 @@
                 <a class="nav-link" href="#">Blog</a>
               </li>
             </ul>
+            
           </div>
         </div>
       </nav>

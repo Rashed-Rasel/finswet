@@ -133,6 +133,7 @@ li {
 /* wrok css start */
 #wrok{
   background-color: #F4F6FC;
+  padding: 50px 0;
 }
 #wrok .wrok-left-side h1{
   color: #282938;
@@ -385,6 +386,9 @@ line-height: 28px;
 /* about css end */
 
 /* questions css start */
+#question{
+  padding: 60px 0;
+}
 #question .question-left-text h1{
   color:var(--secondtextcolor);
 font-family:var(--Poppins);
@@ -654,28 +658,30 @@ padding-right: 20px;
 }
 
 /* footer nevbar css start */
-#footer-nevbar p{
+
+#footer-nevbar a p{
+  color: var(--secondtextcolor, #282938);
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 500;
+}
+#footer-nevbar a {
+  color: var(--secondtextcolor, #282938);
+font-family: var(--Poppins);
+font-size: 16px;
+font-weight: 500;
+  transition: all linear 0.3s;
+}
+#footer-nevbar a:hover {
+  color: var(--iconcolor);
+}
+#footer-nevbar .navbar-toggler{
+  color: var(--iconcolor);
+}
+#footer-nevbar .fa-bars{
   color: var(--secondtextcolor);
-  font-family: var(--Poppins);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
+
 }
-#footer-nevbar ul li{
-  padding-left: 10px;
-}
-#footer-nevbar ul li a{
-  color:var(--secondtextcolor);
-  font-family: var(--Poppins);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  transition: all linear .03s;
-  }
-  #footer-nevbar ul li a:hover{
-    background-color: #80abfc;
-    color: #000000;
-    
-  }
+
 
 /* footer css end */

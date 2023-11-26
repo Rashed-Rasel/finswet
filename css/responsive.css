@@ -1,9 +1,12 @@
 /* ================================================ */
-/*=========== nevbar responsive  start============= */
+/*=========== nevbar\banner responsive  start============= */
 /* ================================================ */
 @media (max-width: 991.98px) {
   .navbar-nav {
     margin-top: 20px;
+  }
+  #nevbar-part .row {
+    padding: 60px 0;
   }
   #nevbar-part li a {
     background-color: var(--btncolor);
@@ -16,19 +19,50 @@
     color: #000000;
     background-color: aliceblue;
   }
-  #wrok {
-    padding: 25px 0;
+}
+
+@media (max-width: 767.98px) {
+  #nevbar-part .row h1 {
+    font-size: 38px;
+    line-height: 68px;
   }
-  #wrok .strategy {
-    padding: 25px 0;
+  #nevbar-part .row p {
+    font-size: 13px;
+    line-height: 27px;
+  }
+  element.style {
+    margin-top: 55px;
   }
 }
+
+/* ================================================ */
+/*=========== nevbar\banner responsive  end============= */
+/* ================================================ */
 
 /* ================================================ */
 /*=========== wrok responsive  css start============= */
 /* ================================================ */
 
 @media (max-width: 991.98px) {
+  #wrok {
+    padding: 25px;
+  }
+  #wrok .strategy {
+    padding: 40px 0;
+    margin-left: 60px;
+  }
+  #wrok .wrok-left-side {
+    text-align: center;
+  }
+  #wrok .wrok-left-side p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #wrok .strategy {
+    text-align: center;
+  }
 }
 
 /* ================================================ */
@@ -36,7 +70,103 @@
 /* ================================================ */
 
 /* ================================================ */
-/*=========== nevbar responsive  css start============= */
+/*=========== project responsive  css start============= */
+/* ================================================ */
+@media (max-width: 991.98px) {
+  #project {
+    padding-top: 30px;
+  }
+  #project h1 {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #project {
+    padding-top: 30px;
+  }
+  #project h1 {
+    font-size: 29px;
+  }
+  #project .bg-img .overly .left-text h2 {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  #project .bg-img .overly .left-text p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+/* ================================================ */
+/*=========== project responsive  css end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== Design responsive  css start============= */
+/* ================================================ */
+@media (max-width: 767.98px) {
+  #design .clint {
+    text-align: center;
+  }
+  #design .clint p {
+    padding: 0 74px;
+  }
+}
+/* ================================================ */
+/*=========== Design responsive  css end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== About responsive  css start============= */
+/* ================================================ */
+
+@media (max-width: 991.98px) {
+  #about .about-left-text {
+    padding-bottom: 30px;
+  }
+  #about .right-text-up h1 {
+    font-size: 29px;
+    line-height: 57px;
+  }
+  #about .about-left-text {
+    text-align: center;
+  }
+  #about .right-text-pic {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #about .about-left-text h1 {
+    margin-bottom: 20px;
+  }
+  #about .right-text-up h1 {
+    font-size: 21px;
+    line-height: 46px;
+  }
+}
+
+/* ================================================ */
+/*=========== About responsive  css end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== Question responsive  css start============= */
+/* ================================================ */
+@media (max-width: 991.98px) {
+  #question .question-left-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+/* ================================================ */
+/*=========== Question responsive  css end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== contact responsive  css start============= */
 /* ================================================ */
 
 @media (max-width: 1199.98px) {
@@ -51,16 +181,97 @@
   }
 }
 
+@media (max-width: 991.98px) {
+  #contact .left-img img {
+    width: 100%;
+  }
+  #contact .left-img .contact-left-text {
+    padding: 189px 0px 0 144px;
+  }
+  #contact .contact-right-bg .overly .right-items .btn {
+    padding: 15px 199px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #contact .left-img .contact-left-text {
+    padding: 210px 0px 0 67px;
+  }
+  #contact .left-img .contact-left-text p {
+    text-align: center;
+  }
+  #contact .contact-right-bg .overly .right-items .btn {
+    padding: 10px 109px;
+    margin-top: 40px;
+  }
+}
+
 /* ================================================ */
-/*=========== client responsive  end============= */
+/*=========== contact responsive css  end============= */
+/* ================================================ */
+
+/* ================================================ */
+/*=========== Blog responsive css  start============= */
+/* ================================================ */
+
+@media (max-width: 991.98px) {
+  #blog h1 {
+    text-align: center;
+    margin-bottom: 21px;
+  }
+  #blog .blog-items {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  #blog .blog-items {
+    text-align: center;
+  }
+}
+
+/* ================================================ */
+/*=========== Blog responsive css  End============= */
 /* ================================================ */
 
 /* ================================================ */
 /*=========== Footer responsive  start============= */
 /* ================================================ */
 @media (max-width: 1199.98px) {
-  element.style {
+  #footer .footer-right {
     padding-left: 57px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #footer .footer-left {
+    margin: 50px 0;
+    text-align: center;
+  }
+  #footer .footer-left .footer-left-last {
+    margin-top: 0px;
+  }
+  #footer .footer-right {
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #footer-nevbar .navbar-nav {
+    margin-top: 20px;
+  }
+  #footer-nevbar .row {
+    padding: 60px 0;
+  }
+  #footer-nevbar li a {
+    background-color: var(--btncolor);
+    margin-bottom: 20px;
+    color: #000000;
+    border-radius: 20px;
+    transition: all linear 0, 3s;
+  }
+  #footer-nevbar li a:hover {
+    color: #000000;
+    background-color: aliceblue;
   }
 }
 
