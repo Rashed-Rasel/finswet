@@ -135,7 +135,7 @@ li {
   background-color: #F4F6FC;
   padding: 50px 0;
 }
-#wrok .wrok-left-side h1{
+#wrok .wrok-left-side h2{
   color: #282938;
   font-family: var(--Poppins);
   font-size: 48px;
@@ -607,8 +607,7 @@ margin-bottom: 48px;
   
 }
 #footer .footer-left .footer-left-last{
-  width: 517px;
-  height: 95px;
+  padding: 30px 60px;
   background: #FCD980;
 
 }

@@ -23,15 +23,43 @@
 
 @media (max-width: 767.98px) {
   #nevbar-part .row h1 {
-    font-size: 38px;
-    line-height: 68px;
+    font-size: 34px;
+    line-height: 56px;
+    text-align: center;
   }
   #nevbar-part .row p {
     font-size: 13px;
     line-height: 27px;
+    text-align: center;
   }
-  element.style {
-    margin-top: 55px;
+  #nevbar-part .row .banner-last .our-wrok button {
+    padding: 5px 57px;
+  }
+
+  .w-100 {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  #nevbar-part .row h1 {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  #nevbar-part .row p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  #nevbar-part .row .banner-last .our-wrok button {
+    padding: 12px 18px;
+    margin-left: 20px;
+  }
+  #nevbar-part .row .banner-last .our-wrok button {
+    font-size: 10px;
+    line-height: 9px;
+  }
+  #nevbar-part .row .banner-last .paching a {
+    font-size: 11px;
   }
 }
 
@@ -46,6 +74,13 @@
 @media (max-width: 991.98px) {
   #wrok {
     padding: 25px;
+  }
+  #wrok .wrok-left-side h2 {
+    font-size: 44px;
+  }
+  #wrok .wrok-left-side p {
+    font-size: 12px;
+    line-height: 25px;
   }
   #wrok .strategy {
     padding: 40px 0;
@@ -62,6 +97,43 @@
 @media (max-width: 767.98px) {
   #wrok .strategy {
     text-align: center;
+  }
+  #wrok .strategy p {
+    font-size: 11px;
+  }
+  #wrok .strategy h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #wrok .wrok-left-side h2 {
+    font-size: 20px;
+  }
+  #wrok .wrok-left-side p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  #wrok .wrok-left-side a {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  #wrok .strategy {
+    padding: 0;
+    margin-left: 0;
+  }
+  #wrok .strategy h2 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  #wrok .strategy h2 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  #wrok .strategy p {
+    font-size: 10px;
+    line-height: 20px;
   }
 }
 
@@ -97,6 +169,11 @@
     line-height: 22px;
   }
 }
+@media (max-width: 576px) {
+  #project h1 {
+    font-size: 20px;
+  }
+}
 
 /* ================================================ */
 /*=========== project responsive  css end============= */
@@ -111,6 +188,37 @@
   }
   #design .clint p {
     padding: 0 74px;
+  }
+  #design .titel h2 {
+    font-size: 33px;
+    line-height: 58px;
+  }
+}
+@media (max-width: 575.98px) {
+  #design {
+    padding: 20px 0;
+  }
+  #design .titel h2 {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  #design .clint {
+    padding: 31px 16px 29px 17px;
+  }
+  .fa-2x {
+    font-size: 1.5em;
+  }
+  #design .clint h2 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  #design .clint p {
+    padding: 0 0px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  #design .clint {
+    padding: 31px 16px 29px 17px;
   }
 }
 /* ================================================ */
@@ -146,6 +254,26 @@
     line-height: 46px;
   }
 }
+@media (max-width: 575.98px) {
+  #about .about-left-text {
+    padding-bottom: 6px;
+  }
+  #about .about-left-text h1 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  #about .about-left-text p {
+    font-size: 10px;
+    line-height: 20px;
+    padding-bottom: 0;
+  }
+  #about .right-text-up h1 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0;
+  }
+}
 
 /* ================================================ */
 /*=========== About responsive  css end============= */
@@ -158,6 +286,35 @@
   #question .question-left-text {
     text-align: center;
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  #question .question-left-text h1 {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 0rem !important;
+  }
+
+  #question .question-left-text a {
+    color: #2405f2;
+    font-family: var(--Poppins);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.87;
+    transition: all linear 0.3s;
+  }
+  #question .question-right-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  #question .question-right-text span {
+    font-size: 15px;
+    line-height: 31px;
+  }
+  #question p {
+    font-size: 10px;
+    line-height: 20px;
   }
 }
 
@@ -207,6 +364,45 @@
   }
 }
 
+@media (max-width: 575.98px) {
+  #contact .left-img .contact-left-text {
+    padding: 244px 0px 0 12px;
+  }
+  #contact .left-img .overly .contact-left-text h1 {
+    font-size: 28px;
+    line-height: 55px;
+    text-align: center;
+  }
+  #contact .left-img .overly .contact-left-text p {
+    font-size: 10px;
+    line-height: 23px;
+  }
+  #contact .contact-right-bg .overly .right-items {
+    padding: 100px 10px 100px 10px;
+  }
+  #contact .contact-right-bg .overly .right-items h2 {
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+  }
+  #contact .contact-right-bg .overly .right-items p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #contact .contact-right-bg .overly .right-items input {
+    border-radius: 4px;
+    border: 0.5px solid rgba(255, 255, 255, 0.05);
+  }
+  #contact .contact-right-bg .overly .right-items .btn {
+    padding: 6px 46px;
+    margin-left: 28px;
+  }
+  #contact .contact-right-bg .overly .right-items .touch a {
+    font-size: 12px;
+  }
+}
+
 /* ================================================ */
 /*=========== contact responsive css  end============= */
 /* ================================================ */
@@ -227,6 +423,24 @@
 @media (max-width: 767.98px) {
   #blog .blog-items {
     text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  #blog h1 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  #blog .blog-items h3 {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  #blog .blog-items p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  #blog .blog-items a {
+    font-size: 10px;
+    line-height: 20px;
   }
 }
 
@@ -272,6 +486,39 @@
   #footer-nevbar li a:hover {
     color: #000000;
     background-color: aliceblue;
+  }
+
+  @media (max-width: 575.98px) {
+    #footer .footer-left p {
+      font-size: 10px;
+      line-height: 20px;
+    }
+  }
+  #footer .footer-left .footer-left-last {
+    padding: 0 0 10px 0;
+  }
+  #footer .footer-left .footer-left-last .text h3 {
+    font-size: 13px;
+  }
+  #footer .footer-left .footer-left-last .text a {
+    font-size: 10px;
+  }
+  #footer .footer-left p {
+    margin-bottom: 19px;
+  }
+  #footer .footer-right {
+    padding-left: 0px;
+  }
+  #footer .footer-right h1 {
+    font-size: 31px;
+    line-height: 24px;
+  }
+  #footer .footer-right p {
+    font-size: 10px;
+    line-height: 23px;
+  }
+  #footer-nevbar a p {
+    font-size: 10px;
   }
 }
 
